@@ -1,0 +1,44 @@
+.loginContainer{
+    width:50%;
+    padding:30px;
+     background-color: rgb(151, 89, 38);
+     color:black;
+     border-radius: 10px;
+     height: 420px;
+     margin-left: 20%;
+     font-size:20px;
+      
+}
+.textError{
+    color: black;
+}
+.btn1{
+    width:200px;
+    margin-top:2%;
+    background-color: rgb(131, 71, 11);
+    border: none;
+    padding: 10px;
+    color: orangered;
+    font-size: 20px;
+}
+.head{
+    margin-bottom:20px;
+    color: rgb(202, 102, 8);
+}
+.main{
+    background-color: rgb(36, 34, 34);
+    height: 100vh;
+    padding-top:20px;
+   
+
+}
+.formC{
+    position: relative;
+}
+.eyeT{
+    position: absolute;
+    top:40px;
+    left:92%;
+    color: rgb(138, 55, 25);
+}
+

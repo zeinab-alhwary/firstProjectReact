@@ -1,0 +1,100 @@
+ 
+  .homeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+
+  }
+  .card{
+    margin: 20px;
+    
+   
+  }
+  .bodyCard{
+    background-color: rgba(129, 80, 16, 0.5);
+    position: relative;
+  }
+  .bodyCard::before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+    background-color: rgb(241, 175, 134);
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.show:hover .bodyCard::before{
+  opacity: 1;
+   
+}
+  .link{
+    
+    position: absolute;
+    top: 60%;
+    left: 20px;
+    z-index: 3;
+    text-decoration: none;
+    color:rgb(19, 18, 18);
+    font-size: 15px;
+    cursor: pointer;
+    
+     
+  }
+   
+  .link:hover{
+  
+    color: rgb(238, 196, 172);
+    transition: 0.5s;
+    text-transform: uppercase;
+     font-weight: bold;
+     font-size: 20px;
+     z-index: 3;
+  }
+  .arrowRight{
+ color:rgb(190, 88, 4);
+ /* background-color: aliceblue; */
+    position: absolute;
+    top:50%;
+    right: 30px;
+  }
+  .arrowLeft{
+    color:rgb(190, 88, 4);
+ /* background-color: aliceblue; */
+    position: absolute;
+    top:50%;
+    left: 30px;
+    transform: scaleX(20%);
+    transform:scaleX(-100%)
+  }
+  .arrowRight:hover{
+    opacity:0.5;
+    cursor: pointer;
+  }
+  .arrowLeft:hover{
+    opacity:0.5;
+    cursor: pointer;
+  }
+  
+  .star{
+    font-size:30px;
+    cursor: pointer;
+    opacity:40%;
+  }
+  .fillStar{
+    font-size:30px;
+    cursor: pointer;
+    opacity:100%;
+  }
+  .star:hover{
+    opacity:100%;
+  }
+  .fav{
+    background-color: black;
+    color: rgb(255, 115, 0);
+  }

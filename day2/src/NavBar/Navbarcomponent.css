@@ -1,0 +1,47 @@
+ .favMovie{
+    margin-right: 30px;
+    text-decoration: none;
+    font-size:30px;
+    
+ }
+ .favNum{
+    color: rgb(241, 138, 21);
+ }
+.log{
+    margin-right: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+    color:aliceblue;
+} 
+.reg{
+    text-decoration: none;
+    color:aliceblue ;
+}
+.reg:hover{
+color: orange;
+}
+.log:hover{
+    color: orange; 
+}
+.mov{
+    margin-right: 30px;
+    text-decoration: none;
+    color:aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+}
+.mov:hover{
+    color: orange;
+}
+.btn2{
+background-color: rgb(177, 91, 11);
+border: 1px solid rgb(250, 174, 32);
+color: aliceblue;
+border-radius: 5px;
+
+}
+.btn2:hover{
+    opacity: 0.5;
+}
+ 
+ 
